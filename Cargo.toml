@@ -1,0 +1,8 @@
+[workspace]
+resolver = "2"
+members = ["stream-player", "stream-server"]
+
+[workspace.dependencies]
+thiserror = "2.0.12"
+log = "0.4.26"
+tokio = { version = "1", features = ["full"] }
